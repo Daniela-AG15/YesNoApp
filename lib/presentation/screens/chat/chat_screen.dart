@@ -14,10 +14,11 @@ class ChatScreen extends StatelessWidget {
           padding: EdgeInsets.all(4.0),
           child: CircleAvatar(
             backgroundImage: NetworkImage(
+                //'https://media.revistagq.com/photos/5fbf7553d19648d9db9905f6/16:9/w_2560%2Cc_limit/GQ1120_Chalamet_04-published_es_gq_gq-269-noviembre_print_well-chalamet.jpg'),
                 'https://www.stylist.co.uk/images/app/uploads/2022/06/01105352/jennifer-aniston-crop-1654077521-1390x1390.jpg?w=256&h=256&fit=max&auto=format%2Ccompress'),
           ),
         ),
-        title: const Text('Corazón de Melon 😘'),
+        title: const Text('Timmy 😻'),
         centerTitle: false,
       ),
       body: _ChatView(),
